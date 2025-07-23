@@ -40,9 +40,9 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
             }
 
             dependencies {
-                add("implementation", libs.findLibrary("core.ktx").get())
+                add("implementation", libs.findLibrary("androidx.core.ktx").get())
                 add("testImplementation", libs.findLibrary("junit").get())
-                add("androidTestImplementation", libs.findLibrary("androidx.test.ext.junit").get())
+                add("androidTestImplementation", libs.findLibrary("androidx.junit").get())
             }
         }
     }

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.feelory.android.application)
     alias(libs.plugins.feelory.android.application.compose)
+//    alias(libs.plugins.feelory.android.library.compose)
     alias(libs.plugins.kotlin.compose)
 }
 
@@ -40,5 +41,11 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.androidx.graphics.core)
+    implementation(libs.androidx.graphics.path)
+    implementation(libs.androidx.graphics.shapes)
+    implementation(project(":feature:home"))
+    implementation(project(":feature:feed"))
+    implementation(project(":feature:log"))
+    implementation(project(":feature:mypage"))
 }

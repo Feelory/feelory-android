@@ -44,5 +44,9 @@ gradlePlugin {
             id = "feelory.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
         }
+        register("androidFeature") {
+            id = "feelory.android.feature"
+            implementationClass = "AndroidFeatureConventionPlugin"
+        }
     }
 }
