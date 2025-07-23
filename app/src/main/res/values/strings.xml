@@ -1,8 +1,3 @@
 <resources>
     <string name="app_name">feelory</string>
-    <string name="home">홈</string>
-    <string name="feed">피드</string>
-    <string name="write">글쓰기</string>
-    <string name="log">로그</string>
-    <string name="my_page">마이</string>
 </resources>

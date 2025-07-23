@@ -1,5 +1,4 @@
 pluginManagement {
-    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -22,7 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "feelory"
 include(":app")
-include(":feature:home")
-include(":feature:feed")
-include(":feature:log")
-include(":feature:mypage")

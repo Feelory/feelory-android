@@ -1,4 +1,4 @@
-package com.feelory.feelory.feature.log
+package com.feelory.feelory
 
 import org.junit.Test
 
