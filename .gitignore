@@ -2,7 +2,11 @@
 .gradle
 /local.properties
 /.idea/
+<<<<<<< HEAD
 **/build/
+=======
+build/
+>>>>>>> parent of 33ad4a8 (Revert "Feature/#3 바텀 네비게이션 구현")
 /captures
 .externalNativeBuild
 .cxx
